@@ -13,7 +13,7 @@ class Config(object):
     # Get these values from my.telegram.org
     CHAT_ID = os.environ.get("CHAT_ID", "5257925921")
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5257925921").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1228255863").split())
     # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
